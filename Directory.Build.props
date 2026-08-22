@@ -7,7 +7,7 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <Authors>Lars Oste (Kroste)</Authors>
     <Company>Kroste</Company>
-    <RepositoryUrl>https://github.com/Kroste/Checkmk-Plugin-VSphereBaseImage</RepositoryUrl>
+    <RepositoryUrl>https://github.com/LHP542/Checkmk-Plugin-VSphereBaseImage</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
     <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
     <ManagePackageVersionsCentrally>true</ManagePackageVersionsCentrally>

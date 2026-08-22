@@ -21,7 +21,7 @@ public sealed class Plugin : IPlugin
         Version: ThisAssembly.Version,
         Description: "Batch-Aktualisierung des Checkmk-Agents in vSphere-CTX-Baseimages.",
         Author: "Kroste",
-        UpdateChannelUrl: "https://api.github.com/repos/Kroste/Checkmk-Plugin-VSphereBaseImage/releases/latest");
+        UpdateChannelUrl: "https://api.github.com/repos/LHP542/Checkmk-Plugin-VSphereBaseImage/releases/latest");
 
     public void Register(IServiceCollection services, IPluginContext context)
     {

@@ -1,12 +1,15 @@
 # Checkmk-Plugin-VSphereBaseImage
 
-Plugin für das [Checkmk Cockpit](https://github.com/Kroste/Checkmk), das die
+> Projekt der **Arbeitsgruppe 5424 IT-Basis-Dienste** der Landeshauptstadt Potsdam.
+> Alle dienstlichen Repos liegen in der GitHub-Organisation [LHP542](https://github.com/LHP542).
+
+Plugin für das [Checkmk Cockpit](https://github.com/LHP542/Checkmk), das die
 **automatische Aktualisierung des Checkmk-Agents in vSphere-CTX-Baseimages**
 übernimmt.
 
 ## Problem
 
-Im Fachbereich werden VMs wie `CTX??..??00` (Baseimages) in der Nacht per
+In der Arbeitsgruppe werden VMs wie `CTX??..??00` (Baseimages) in der Nacht per
 vSphere neu ausgerollt — die abgeleiteten `01`-VMs bekommen einen frischen
 Zustand aus dem Baseimage. Updates, die tagsüber im `01` durchgeführt werden,
 gehen dabei verloren. Der Checkmk-Agent muss also **im Baseimage selbst**
@@ -35,7 +38,7 @@ Plugin blendet einen eigenen Tab **„vSphere Baseimages"** im Cockpit ein:
 
 - Windows (DPAPI, Ping, Remote-PowerShell via Plugin 1).
 - Checkmk Cockpit **≥ v1.7.0** (Plugin-System).
-- [`Checkmk-Plugin-AgentUpdater`](https://github.com/Kroste/Checkmk-Plugin-AgentUpdater)
+- [`Checkmk-Plugin-AgentUpdater`](https://github.com/LHP542/Checkmk-Plugin-AgentUpdater)
   **im gleichen `plugins/`-Ordner** — Plugin 2 nutzt dessen `IAgentUpdater`
   für das eigentliche Update. Ohne Plugin 1: Tab lädt nicht (Log-Meldung).
 - vCenter-Konto mit Berechtigungen für VM-Power-Ops und Guest-Ops.
@@ -43,7 +46,7 @@ Plugin blendet einen eigenen Tab **„vSphere Baseimages"** im Cockpit ein:
 
 ## Installation
 
-1. ZIP des neuesten [Releases](https://github.com/Kroste/Checkmk-Plugin-VSphereBaseImage/releases)
+1. ZIP des neuesten [Releases](https://github.com/LHP542/Checkmk-Plugin-VSphereBaseImage/releases)
    herunterladen und entpacken.
 2. `CheckmkPlugin.VSphereBaseImage.dll` in **`plugins/`** neben deiner
    `Checkmk.App.exe` legen (Ordner ggf. anlegen).
@@ -105,6 +108,6 @@ im OS-Editor (ein GUI-Editor kommt in einer späteren Version). Struktur:
   Memory.
 - Skript-Vorlage/Passwörter werden nie ins Log geschrieben.
 
-## Fachbereich
+## Arbeitsgruppe
 
 5424 IT-Basis-Dienste (LHP)

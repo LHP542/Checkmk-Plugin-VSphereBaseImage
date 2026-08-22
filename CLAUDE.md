@@ -1,6 +1,6 @@
 # CLAUDE.md — Checkmk-Plugin-VSphereBaseImage
 
-Plugin fürs [Checkmk Cockpit](https://github.com/Kroste/Checkmk), das den
+Plugin fürs [Checkmk Cockpit](https://github.com/LHP542/Checkmk), das den
 Checkmk-Agent in vSphere-Baseimages im Batch aktualisiert. Diese Datei ist der
 projekt-spezifische Kontext für Copilot/Claude — projektübergreifende Standards
 kommen aus dem `kroste-avalonia`-Skill.
